@@ -1,0 +1,6 @@
+# Engineering Changelog: langchain-eval-plugin
+
+Inception Date: 2025-11-14
+Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
+
+- [2025-11-14] chore: scaffold langchain-eval-plugin repository and pyproject.toml
