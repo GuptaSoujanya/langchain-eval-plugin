@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langchain-eval-plugin"
+version = "0.2.2"
+description = "Real-time evaluation tracer callback plugin for LangChain and LlamaIndex agents."
+readme = "README.md"
+authors = [{ name = "Soujanya Gupta", email = "158287001+GuptaSoujanya@users.noreply.github.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
