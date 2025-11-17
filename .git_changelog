@@ -4,3 +4,4 @@ Inception Date: 2025-11-14
 Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 
 - [2025-11-14] chore: scaffold langchain-eval-plugin repository and pyproject.toml
+- [2025-11-17] feat: callback: implement BaseCallbackHandler telemetry interface
