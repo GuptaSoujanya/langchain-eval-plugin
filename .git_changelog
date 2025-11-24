@@ -6,3 +6,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-11-14] chore: scaffold langchain-eval-plugin repository and pyproject.toml
 - [2025-11-17] feat: callback: implement BaseCallbackHandler telemetry interface
 - [2025-11-21] feat: tracer: track on_llm_start, on_llm_new_token, and on_llm_end events
+- [2025-11-24] feat: metrics: compute per-step Time-To-First-Token and token generation rate
