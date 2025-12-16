@@ -13,3 +13,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-12-07] test: verify callback alerts when context retrieval contains empty metadata
 - [2025-12-10] ci: configure GitHub Actions automated test workflow
 - [2025-12-13] docs: add LangChain and LlamaIndex agent integration guide in README
+- [2025-12-16] feat: reporters: export step traces to OpenTelemetry-compatible format
