@@ -22,3 +22,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-03-20] test: verify critical path analysis isolates slowest tool node in graph
 - [2026-04-21] docs: add LangGraph integration tutorial with multi-agent code sample
 - [2026-05-23] perf: reduce memory footprint of trace event buffers using ring buffer
+- [2026-06-24] fix: ensure compatibility with Python 3.12 and latest langchain-core releases
