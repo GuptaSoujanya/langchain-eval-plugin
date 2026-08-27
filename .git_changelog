@@ -1,26 +1,10 @@
-# Engineering Changelog: langchain-eval-plugin
-
-Inception Date: 2025-11-14
-Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
-
-- [2025-11-14] chore: scaffold langchain-eval-plugin repository and pyproject.toml
-- [2025-11-17] feat: callback: implement BaseCallbackHandler telemetry interface
-- [2025-11-20] feat: tracer: track on_llm_start, on_llm_new_token, and on_llm_end events
-- [2025-11-23] feat: metrics: compute per-step Time-To-First-Token and token generation rate
-- [2025-11-27] test: add unit tests for callback execution order and timing recording
-- [2025-11-30] feat: cost: implement token cost estimator for open-source and proprietary models
-- [2025-12-03] feat: guard: add hallucination check callback on tool output integration
-- [2025-12-07] test: verify callback alerts when context retrieval contains empty metadata
-- [2025-12-10] ci: configure GitHub Actions automated test workflow
-- [2025-12-13] docs: add LangChain and LlamaIndex agent integration guide in README
-- [2025-12-16] feat: reporters: export step traces to OpenTelemetry-compatible format
-- [2025-12-20] fix: handle async agent callbacks (AsyncCallbackHandler) without blocking event loop
-- [2025-12-23] chore: bump version to v0.1.0 and publish release notes
-- [2025-12-24] test: verify async callback handles 50 concurrent agent executions cleanly
-- [2026-01-15] feat: add support for LangGraph multi-agent execution graphs and branching
-- [2026-02-16] feat: measure end-to-end graph execution latency and critical path bottlenecks
-- [2026-03-20] test: verify critical path analysis isolates slowest tool node in graph
-- [2026-04-21] docs: add LangGraph integration tutorial with multi-agent code sample
-- [2026-05-23] perf: reduce memory footprint of trace event buffers using ring buffer
-- [2026-06-24] fix: ensure compatibility with Python 3.12 and latest langchain-core releases
-- [2026-07-26] test: verify zero thread lock contention under high agent load
+[2024-05-11T20:13:41] chore: scaffold: initialize langchain-eval-plugin repository
+[2024-07-02T17:29:47] feat: callbacks: implement EvaluationTracerCallback measuring per-step agent latency
+[2024-11-29T17:40:54] feat: telemetry: add token usage and cost accounting accumulator
+[2024-12-18T19:44:12] test: add unit tests for callback handler execution on chain start and end
+[2026-03-24T11:36:34] docs: update production README with LangChain execution callback recipes
+[2026-06-09T10:09:17] feat: callbacks: add LlamaIndex query engine callback handler
+[2026-07-10T19:24:05] perf: implement asynchronous logging to eliminate trace overhead
+[2026-07-15T19:10:49] feat: callbacks: add automatic hallucination score calculation hook
+[2026-09-04T20:09:29] fix: handle nested agent tool calling without double counting tokens
+[2026-09-21T18:08:06] chore: release v0.2.2 and compatibility update with LangChain 0.3
