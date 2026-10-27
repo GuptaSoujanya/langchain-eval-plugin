@@ -33,3 +33,5 @@ MIT License (c) 2024 Soujanya Gupta.
 <!-- PR #51: refactor: clean up typing annotations across core modules -->
 
 <!-- PR #64: docs: add hardware environment specifications to README -->
+
+<!-- PR #77: fix: prevent potential zero division during variance calculation -->
