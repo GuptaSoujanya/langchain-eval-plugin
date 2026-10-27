@@ -17,3 +17,6 @@ class EvaluationTracerCallback:
             "total_steps": len(self.step_latencies),
             "mean_latency_ms": round(sum(self.step_latencies)/len(self.step_latencies), 2) if self.step_latencies else 0.0
         }
+
+    async def on_chain_start_async(self, *args, **kwargs):
+        pass
