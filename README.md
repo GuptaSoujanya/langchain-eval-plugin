@@ -23,3 +23,5 @@ print(tracer.get_summary())
 ## License
 
 MIT License (c) 2024 Soujanya Gupta.
+
+<!-- PR #12: docs: clarify benchmark metric configuration options -->
